@@ -263,6 +263,22 @@ hr {
 .hangman-draw.wrong-7 .the-legs {
 	display: block;
 }
+/* .copywrite {
+	text-align: center;
+	bottom: 20px;
+}
+.copywrite a {
+	text-decoration: none;
+} */
+.game-info a {
+	text-decoration: none;
+}
+@media (max-width: 400px) {
+	.copy {
+		margin: 0;
+		font-size: 12px;
+	}
+}
 
 /* popup */
 .popup {
