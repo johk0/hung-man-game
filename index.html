@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>hang man game</title>
+</head>
+
+<body>
+
+    <div class="loading">
+        <div class="loader">
+            <div class="box box0">
+                <div></div>
+            </div>
+            <div class="box box1">
+                <div></div>
+            </div>
+            <div class="box box2">
+                <div></div>
+            </div>
+            <div class="box box3">
+                <div></div>
+            </div>
+            <div class="box box4">
+                <div></div>
+            </div>
+            <div class="box box5">
+                <div></div>
+            </div>
+            <div class="box box6">
+                <div></div>
+            </div>
+            <div class="box box7">
+                <div></div>
+            </div>
+            <div class="ground">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">hangman</div>
+            <div class="category">
+                word from : <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="the-head"></div>
+                        <div class="the-body"></div>
+                        <div class="the-hands"></div>
+                        <div class="the-legs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters">
+
+            </div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+        <hr>
+    </div>
+    <div class="popup">
+        <p>We have A Winner!</p>
+        <p>Your grade: <span class="grade">defult</span></p>
+        <button>Try Again</button>
+    </div>
+
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
